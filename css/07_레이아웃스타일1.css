@@ -1,0 +1,28 @@
+/* 클래스 기반 CSS
+: CSS 파일에 미리 클래스 선택자를 이용하여
+  특정 클래스를 지닌 요소에 적용할 스타일을 미리 작성 */
+
+.area1{background-color: red;}
+.area2{background-color: orange;}
+.area3{background-color: yellow;}
+.area4{background-color: green;}
+.area5{background-color: blue;}
+
+.box{
+    width: 100px;
+    height: 100px;
+    color: white;
+    border: 2px solid black;
+}
+
+/* display 변경 속성 */
+.inline{display: inline}
+.block{display: block}
+.inline-block{display: inline-block;}
+
+.none{display: none}
+
+/* visibility(눈에보이는 상태):hidden(숨김) 
+                    -> 투명하게 변함
+                    -> 눈이만 안보이지, 공간은 계속 차지함*/
+.hidden{visibility: hidden;}
