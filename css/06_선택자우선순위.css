@@ -1,0 +1,44 @@
+/* #test1{background-color: silver !important;} */
+/* 아이디 선택자이기에 lightpink, gold 말고 silver가 1순위가 됨 */
+
+/* 1순위: !important */
+div{
+    /* background-color: lightpink; => 원래는 태그 선택자라 5순위 */
+    background-color: lightpink !important;
+}
+
+/* div{
+    background-color: gold !important; /* 같은 우선순위 이면 마지막 작성된 값으로 덮어씌움 
+} */
+
+/* 3순위: 아이디 선택자 */
+#test1{
+    height: 100px;
+    color: red;
+    background-color: skyblue;
+
+    font-family: '궁서체';
+    font-size: 24px;
+}
+
+/* 4순위: 클래스 선택자 */
+.cls1{
+    background-color: green;
+    color: white;
+}
+
+/* 5순위 : 태그 선택자 */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+/* CSS 속성이 곂치지 않으면 모두 반영된다. */
+div{border: 3px solid black;}
+
+/* 같은 선택자, 같은 CSS 속성 작성 시
+마지막에 작성된 내용으로 덮어쓰기 */
+div{background-color: #cccccc;}
+
+
