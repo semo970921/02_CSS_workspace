@@ -8,22 +8,26 @@
 - **AWS 풀스택 웹 개발자 양성 과정**에서 웹 프론트엔드 개발을 위한 **CSS 기본 및 고급 기능** 학습
 
 ## 📖 자세한 내용
-- 학습 내용 및 예제 코드에 대한 설명은 노션 페이지에 자새하게 정리되어 있습니다.
+- 학습 내용 및 예제 코드에 대한 설명은 노션 페이지에 자세하게 정리되어 있습니다.
 - 노션 링크: [CSS 학습 정리 바로가기](https://www.notion.so/CSS-16ab958bc747806eb813d6e895972c90)
 
 ## 🧠 학습 내용
 1. **CSS 선택자**
-   - **기본 선택자**: 태그, 클래스, 아이디 선택자
+   - **기본 선택자**: 태그, 클래스, 아이디 선택자 등등
    - **속성 선택자**: `[attribute]`, `[attribute="value"]`, `[attribute~="value"]` 등등
-   - **가상 클래스 선택자**: `:first-child`, `:last-child`, `:nth-child(n)`, `:first-of-type`, `:last-of-type` 등둥
-   - **가상 요소 선택자**: `::before`, `::after`
-   - **선택자 우선순위**: 선택자별 우선순위 규칙 및 `!important`의 사용
+   - **자식 및 후손 선택자**: 두 선택자의 차이
+   - **반응 선택자**: `:hover`, `:active` 등등 
+   - **상태 선택자**: `:focus`, `:checked`, `:enabled` 등등
+   - **동위선택자**: `+`, `~(틸드)` 
+   - **가상 요소 선택자**: 라디오, 체크 박스를 위한 `::before`
+   - **가상 클래스 선택자**: `:first-child`, `:last-child`, `:nth-child(n)`, `:first-of-type`, `:last-of-type` 등등
+   - **선택자 우선순위**: 선택자별 우선순위
 
 2. **레이아웃 스타일링**
-   - **박스 모델**: `content`, `padding`, `border`, `margin`의 개념과 `box-sizing` 속성
-   - **디스플레이 속성**: `display: inline`, `display: block`, `display: inline-block`, `display: none` 등등
-   - **가시성 속성**: `visibility: hidden`과 요소의 공간 차지 여부
-   - **레이아웃 구성**: 클래스를 활용한 다양한 레이아웃 스타일 적용
+   - **박스 모델**: `content`, `padding`, `border`, `margin`의 개념 및 `box-sizing` 속성
+   - **디스플레이 속성**: `inline`, `block`, `inline-block` 등등
+   - **가시성 속성**: `hidden` 등등
+   - **레이아웃 구성**: `position`, `z-index` 등등
 
 3. **폰트 및 타이포그래피**
    - **웹 폰트 적용**: `@font-face`를 이용한 외부 폰트 로딩 및 적용
