@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    border: 1px solid black;
+}
+
+.item{
+    width: 75px;
+    height: 75px;
+}
+
+.item1{background-color: red;}
+.item2{background-color: orange;}
+.item3{background-color: yellow;}
+.item4{background-color: green;}
+.item5{background-color: yellowgreen;}
+.item6{background-color: lightblue;}
+.item7{background-color: blue;}
+.item8{background-color: purple;}
+.item9{background-color: blueviolet;}
