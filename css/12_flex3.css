@@ -1,0 +1,47 @@
+.flex-container{
+    height: 400px;
+    margin: 30px;
+    display: flex;
+
+    /* flex-flow : flex-direction(중심축) + flex-wrap(한줄/여러줄) */
+    flex-flow: row nowrap; /* 기본 값 */
+}
+
+.order1{order: 1;}
+/* .order2{order: 2;} */ /* item4 */
+/* .order3{order: 3;} */ /* item1 */
+.order4{order: 4;}
+.order5{order: 5;}
+
+
+.grow1{flex-grow: 1;}
+.grow2{flex-grow: 2;}
+.grow3{flex-grow: 3;}
+.grow4{flex-grow: 4;}
+
+.shrink-container > .item{
+    width: 200px;
+    height: 200px;
+}
+.shrink0{flex-shrink: 0;}
+.shrink1{flex-shrink: 1;}
+.shrink2{flex-shrink: 2;}
+.shrink3{flex-shrink: 3;}
+
+.fb-150px{flex-basis: 150px;}
+.fb-10{flex-basis: 10%;}
+.fb-20{flex-basis: 25%;}
+.fb-50{flex-basis: 50%;}
+
+.basis-container{
+    height: 1200px;
+    flex-direction: column;
+}
+
+.flex-gsb > .item{
+    flex : 0 1 200px;
+}
+
+.self-start{align-self: flex-start;}
+.self-end{align-self: flex-end;}
+.self-center{align-self: center;}
