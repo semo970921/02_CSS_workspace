@@ -1,0 +1,11 @@
+.flex-container{
+    height: 75vh;
+    margin: 30px 20px;
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+
+    align-content:space-between;
+}
+
